@@ -2,6 +2,12 @@
 
 A Widgetbook addon that provides accurate widget size inspection using RenderBox constraints. This library solves the common issue where SVG widgets and other constrained widgets report incorrect sizes in traditional inspectors.
 
+## What is Widgetbook?
+
+[Widgetbook](https://widgetbook.io/) is a tool for building and testing Flutter widgets in isolation. It allows developers to create a catalog of widgets, test them across different themes, screen sizes, and device orientations, and share them with designers and stakeholders. Widgetbook helps maintain design consistency and makes it easier to develop and test UI components.
+
+This addon enhances Widgetbook by providing accurate size inspection capabilities, making it perfect for design handoffs and QA testing.
+
 ## About the Package
 
 This package is inspired by the [inspector package](https://pub.dev/packages/inspector) but specifically designed for Widgetbook environments. It provides accurate sizing information by using RenderBox constraints instead of intrinsic dimensions, making it particularly useful for debugging SVG widgets and other constrained widgets.
@@ -31,6 +37,10 @@ flutter pub get
 ```
 
 ## Usage
+
+### Prerequisites
+
+Before using this addon, make sure you have Widgetbook set up in your Flutter project. If you haven't set up Widgetbook yet, check out the [Widgetbook documentation](https://docs.widgetbook.io/) to get started.
 
 ### Basic Setup
 
@@ -121,9 +131,10 @@ Please feel free to submit a Pull Request :)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
 - Inspired by the [inspector package](https://pub.dev/packages/inspector) by kekland.com
-- Built for the Widgetbook community
+- Built for the [Widgetbook](https://widgetbook.io/) community
+- Special thanks to the Widgetbook team for creating such an amazing tool for Flutter developers
